@@ -1,0 +1,44 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(39, 38, 53);
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+}
+
+h2 {
+    color: rgb(230, 184, 219);
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#lasagna-info-header,
+#lasagna-info-sub-header {
+    color: rgb(179, 119, 165);
+}
+
+#lasagna-info-header {
+    font-size: medium;
+    font-weight: 600;
+}
+
+#lasagna-info-sub-header {
+    font-size: small;
+    font-weight: 500;
+}
+
+.info-box {
+    border-color: rgb(155, 154, 154);
+    border-style: solid;
+    display: inline-block;
+    padding-block: 20px;
+    padding-right: 20px;
+}
+
+.main-page-link a:link,a:hover,a:visited {
+    color: rgb(155, 154, 154);
+    font-size: large;
+}
