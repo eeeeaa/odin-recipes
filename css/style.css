@@ -13,6 +13,13 @@ h2 {
     color: rgb(230, 184, 219);
     font-weight: 700;
     font-size: x-large;
+    background-color: rgb(28, 27, 39);
+    padding: 8px;
+    text-align: center;
+}
+
+p {
+    margin: 8px;
 }
 
 #lasagna-info-header,
@@ -38,7 +45,25 @@ h2 {
     padding-right: 20px;
 }
 
-.main-page-link a:link,a:hover,a:visited {
-    color: rgb(155, 154, 154);
+.main-title-header,h1 {
+    text-align: center;
+    background-color: rgb(70, 68, 65);
+    margin: 8px 8px;
+}
+
+.main-page-button,
+.main-page-link {
+    background-color: rgb(110, 110, 110);
+}
+
+.main-page-button {
+    display: block;
+    margin: 16px auto;
+    width: 200px;
+}
+
+a {
+    background-color: transparent;
+    color: rgb(214, 214, 214);
     font-size: large;
 }
